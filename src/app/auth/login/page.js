@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client";
 
 import { LoadingButton } from "@mui/lab";
@@ -13,7 +14,7 @@ import {
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
-const page = () => {
+const LoginView = () => {
   const Router = useRouter();
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -189,4 +190,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default LoginView;

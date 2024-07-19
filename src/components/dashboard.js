@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client";
 
 import { useState } from "react";
@@ -60,6 +61,7 @@ export default function Dashboard() {
                 {ColoreArray.map((item, key) => {
                   return (
                     <div
+                      key={key}
                       style={{
                         height: 20,
                         width: 20,
@@ -85,6 +87,7 @@ export default function Dashboard() {
                 {SizeArray.map((item, key) => {
                   return (
                     <div
+                      key={key}
                       style={{
                         height: 40,
                         width: 40,

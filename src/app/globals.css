@@ -1,0 +1,51 @@
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  box-sizing: border-box !important;
+}
+
+.center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.divider {
+  display: flex;
+}
+.divider:before,
+.divider:after {
+  content: "";
+  flex: 1;
+}
+
+.line {
+  align-items: center;
+  margin: 1em -1em;
+}
+.line:before,
+.line:after {
+  height: 1px;
+  margin: 0 1em;
+}
+
+.one-line:before,
+.one-line:after {
+  background: #4e4e4e;
+  opacity: 0.5;
+}
+
+a {
+  text-decoration: none !important;
+  text-transform: none !important;
+  color: inherit;
+}
+
+.hero {
+  background: url("../../public/ImageOne.svg");
+  background-color: #cccccc;
+  height: calc(100vh - 0px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
